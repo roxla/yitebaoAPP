@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "用户服务协议",
+  "navigationBarBackgroundColor": "#02C0D0",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse"
+  }
+}

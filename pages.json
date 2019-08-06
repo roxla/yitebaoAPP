@@ -1,0 +1,492 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/reg/reg",
+            "style" : {
+				"navigationBarTitleText": "新用户注册",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/pwd/pwd",
+            "style" : {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/rule/rule",
+            "style" : {
+				"navigationBarTitleText": "用户服务协议",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"app-plus":{"titleNView":false}
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"app-plus":{"titleNView":false}
+			}
+        }
+        ,{
+            "path" : "pages/test/test",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" : {
+				"app-plus":{"titleNView":false}
+			}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+				"app-plus":{"titleNView":false}
+			}
+        }
+        ,{
+            "path" : "pages/mall/mall",
+            "style" : {
+				"app-plus":{"titleNView":false}
+			}
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" : {
+				"navigationBarTitleText": "个人设置",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/tel/tel",
+            "style" : {
+				"navigationBarTitleText": "修改手机号",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/my_info/my_info",
+            "style" : {
+				"navigationBarTitleText": "个人资料设置",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/coupon/coupon",
+            "style" : {
+				"navigationBarTitleText": "我的优惠券",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/wallet/wallet",
+            "style" : {
+				"navigationBarTitleText": "我的卡包",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/consumption/consumption",
+            "style" : {
+				"navigationBarTitleText": "消费记录",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/card_consumption/card_consumption",
+            "style" : {
+				"navigationBarTitleText": "消费记录",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/reservation_order/reservation_order",
+            "style" : {
+				"navigationBarTitleText": "预约订单",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/Laundry_order_info/Laundry_order_info",
+            "style" : {
+				"navigationBarTitleText": "洗衣订单详细信息",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/object_info/object_info",
+            "style" : {
+				"navigationBarTitleText": "物件详细信息",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/rechange/rechange",
+            "style" : {
+				"navigationBarTitleText": "会员卡余额充值",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/reconnection/reconnection",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/vipcard/vipcard",
+            "style" : {
+				"navigationBarTitleText": "申办会员卡",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/laundry/laundry",
+            "style" : {
+				"navigationBarTitleText": "预约下单",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/cardtype/cardtype",
+            "style" : {
+				"navigationBarTitleText": "会员卡类型详细说明",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" : {
+				"navigationBarTitleText": "地址管理",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/pushaddress/pushaddress",
+            "style" : {
+				"navigationBarTitleText": "新增地址",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"text":"保存",
+								"type":"none",
+								"color":"white",
+								"float":"right",
+								"fontSize":15
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/editaddress/editaddress",
+            "style" : {
+				"navigationBarTitleText": "编辑地址",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"text":"保存",
+								"type":"none",
+								"color":"white",
+								"float":"right",
+								"fontSize":15
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/reserveorder/reserveorder",
+            "style" : {
+				"navigationBarTitleText": "预约下单",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"back",
+								"color":"white",
+								"float":"left"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/ordersuccess/ordersuccess",
+            "style" : {
+				"navigationBarTitleText": "预约成功",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"text":"完成",
+								"type":"none",
+								"color":"white",
+								"float":"right",
+								"fontSize":15
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/getcoupon/getcoupon",
+            "style" : {
+				"navigationBarTitleText": "优惠券领取列表",
+				"navigationBarBackgroundColor": "#02C0D0",
+				"navigationBarTextStyle": "white"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#8a8a8a",
+		"selectedColor":"#F4A62F",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/home_select.png"
+			},
+			{
+				"pagePath":"pages/mall/mall",
+				"text":"商城",
+				"iconPath":"static/tabbar/mall.png",
+				"selectedIconPath":"static/tabbar/mall_select.png"
+			},
+			{
+				"pagePath":"pages/info/info",
+				"text":"消息",
+				"iconPath":"static/tabbar/info.png",
+				"selectedIconPath":"static/tabbar/info_select.png"
+			},
+			{
+				"pagePath":"pages/order/order",
+				"text":"购物",
+				"iconPath":"static/tabbar/shop.png",
+				"selectedIconPath":"static/tabbar/shop_select.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/tabbar/my.png",
+				"selectedIconPath":"static/tabbar/my_select.png"
+			}
+		]
+	}
+}

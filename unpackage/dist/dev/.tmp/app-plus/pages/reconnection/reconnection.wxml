@@ -1,0 +1,1 @@
+<view id="RECONNECTION"><view class="recomm-box"><view class="recomm-img-box"><image src="../../static/reconnection/timeout.png" mode></image></view><button style="color:#02ABA4;border-color:#02ABA4;" type="primary" plain="true" data-event-opts="{{[['tap',[['reConnection']]]]}}" bindtap="__e">重新加载</button></view></view>

@@ -1,0 +1,1 @@
+<view class="components_all"><modal vue-id="1" bind:__l="__l"></modal><loading vue-id="2" bind:__l="__l"></loading><tips vue-id="3" bind:__l="__l"></tips><action-sheet vue-id="4" bind:__l="__l"></action-sheet></view>

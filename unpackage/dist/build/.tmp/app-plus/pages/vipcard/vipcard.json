@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "申办会员卡",
+  "navigationBarBackgroundColor": "#02C0D0",
+  "navigationBarTextStyle": "white",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "back",
+        "color": "white",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "system": "/components/system_/index"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "预约成功",
+  "navigationBarBackgroundColor": "#02C0D0",
+  "navigationBarTextStyle": "white",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "完成",
+        "type": "none",
+        "color": "white",
+        "float": "right",
+        "fontSize": 15
+      }
+    ]
+  },
+  "usingComponents": {}
+}

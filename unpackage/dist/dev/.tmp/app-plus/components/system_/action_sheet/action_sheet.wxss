@@ -1,0 +1,42 @@
+
+.action-sheet {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.action-sheet .plane-content {
+  margin: 30rpx;
+  width: calc(100vw - 60rpx);
+  border-radius: 10rpx;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+  font-size: 28rpx;
+}
+.action-sheet.active .plane-content {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+.action-sheet .list .item {
+  line-height: 88rpx;
+}
+.action-sheet .list .item.cancel {
+  color: #d33;
+  background: #f4f4f4;
+}
+.action-sheet .list .item.title{
+	font-size: 32rpx;
+}
+.action-sheet button.item {
+  margin: 0;
+  border-radius: 0;
+  background: none;
+  font-size: 28rpx;
+}
+

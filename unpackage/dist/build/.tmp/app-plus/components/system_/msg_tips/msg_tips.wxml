@@ -1,0 +1,1 @@
+<view><view class="{{['tips plane',show&&'active']}}"><view class="plane-close"></view><view class="plane-content flex-row"><view class="tips-box">{{msg}}</view></view></view></view>

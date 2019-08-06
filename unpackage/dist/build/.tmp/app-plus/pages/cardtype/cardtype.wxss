@@ -1,0 +1,55 @@
+
+#CARDTYPE.data-v-2d72bfe2{
+	background-color: #F4F4F4;
+}
+.cardtype_box.data-v-2d72bfe2{
+	width: 88%;
+	margin: 8px auto 0px;
+}
+.cardtype_img.data-v-2d72bfe2{
+	width: 100%;
+	height: 0;
+	padding-bottom: 60%;
+	position: relative;
+	margin-bottom: 10px;
+}
+.cardtype_img image.data-v-2d72bfe2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+}
+.cardtype_text.data-v-2d72bfe2{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 1em;
+	color: #666666;
+	font-family: "\9ED1\4F53";
+}
+.cardtype_text_left.data-v-2d72bfe2{
+	font-weight: bold;
+}
+.cardtype_title.data-v-2d72bfe2{
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	color: #666666;
+	font-family: "\9ED1\4F53";
+	margin: 15px 0px 10px;
+}
+.cardtype_explanation.data-v-2d72bfe2{
+	font-size: 0.9em;
+	color: #666666;
+	font-family: "\9ED1\4F53";
+}
+

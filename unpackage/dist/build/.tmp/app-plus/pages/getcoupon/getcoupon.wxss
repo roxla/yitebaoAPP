@@ -1,0 +1,114 @@
+
+.select_item.data-v-67559450{
+	background-color: #F4F4F4;
+}
+.coupon_box.data-v-67559450{
+	width: 92%;
+	margin: 10px auto 0px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: white;
+	border: 1px solid #CCCCCC;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.coupon_box.data-v-67559450:last-of-type{
+	margin-bottom: 10px;
+}
+.coupon_img.data-v-67559450{
+	width: 30%;
+	height: 0;
+	padding-bottom: 28%;
+	position: relative;
+}
+.coupon_img image.data-v-67559450{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+}
+.coupon_text_box.data-v-67559450{
+	width: calc(100% - 30%);
+	padding-left: 5px;
+}
+.coupon_text_title.data-v-67559450{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	color: #FE0302;
+}
+.title_num.data-v-67559450{
+	font-size: 1.3em;
+}
+.title_condition.data-v-67559450{
+	font-size: 0.7em;
+	margin-left: 6px;
+	display: inline-block;
+	background-color: #FEEFF2;
+}
+.coupon_text_description.data-v-67559450{
+	font-size: 0.7em;
+	color: #666666;
+	font-weight: bold;
+}
+.coupon_text_schedule.data-v-67559450{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-bottom: 2px;
+}
+.schedule_item_left.data-v-67559450{
+	font-size: 0.6em;
+	color: #666666;
+	margin-right: 5px;
+}
+.schedule_item_right.data-v-67559450{
+	height: 10px;
+	width: 60%;
+	border: 1px solid #666666;
+	border-radius: 2500px;
+	overflow: hidden;
+}
+.schedule_item.data-v-67559450{
+	background-color: #FFCCCC;
+	height: 100%;
+}
+.coupon_button.data-v-67559450{
+	width: 25px;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+.coupon_button_text.data-v-67559450{
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+}
+.coupon_button_item.data-v-67559450{
+	width: 0px;
+	height: 100%;
+	vertical-align: middle;
+}
+.unused.data-v-67559450{
+	background-color: #FE0302;
+	color: white;
+}
+.used.data-v-67559450{
+	background-color: #CBCBCB;
+	color: white;
+}
+

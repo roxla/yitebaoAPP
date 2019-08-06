@@ -1,0 +1,22 @@
+{
+  "navigationBarTitleText": "消费记录",
+  "navigationBarBackgroundColor": "#02C0D0",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "back",
+        "color": "white",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "system": "/components/system_/index",
+    "uni-icon": "/node-modules/@dcloudio/uni-ui/lib/uni-icon/uni-icon",
+    "mx-date-picker": "/components/mx-datepicker/mx-datepicker",
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "popup-layer": "/components/popup-layer/popup-layer"
+  }
+}

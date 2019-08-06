@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "个人资料设置",
+  "navigationBarBackgroundColor": "#02C0D0",
+  "navigationBarTextStyle": "white",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "back",
+        "color": "white",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "system": "/components/system_/index",
+    "w-picker": "/components/w-picker/w-picker",
+    "avatar": "/components/yq-avatar/yq-avatar"
+  }
+}

@@ -1,0 +1,1 @@
+<view><view class="test_box"><view class="test" style="{{'width:'+(loading+'%')+';'}}"></view></view><view>{{loading+"%"}}</view><view data-event-opts="{{[['tap',[['test',['$event']]]]]}}" bindtap="__e">test</view></view>

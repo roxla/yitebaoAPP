@@ -1,0 +1,14 @@
+
+.test_box{
+	height: 14px;
+	width: 90%;
+	border: 1px solid black;
+	border-radius: 2500px;
+	margin: auto;
+	overflow: hidden;
+}
+.test{
+	background-color: #FFCCCC;
+	height: 100%;
+}
+

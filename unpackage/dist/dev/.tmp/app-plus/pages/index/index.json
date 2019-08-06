@@ -1,0 +1,8 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "uni-swiper-dot": "/node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-icon": "/node-modules/@dcloudio/uni-ui/lib/uni-icon/uni-icon"
+  }
+}

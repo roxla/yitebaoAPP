@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "modal": "/components/system_/modal/modal",
+    "loading": "/components/system_/loading/loading",
+    "tips": "/components/system_/msg_tips/msg_tips",
+    "action-sheet": "/components/system_/action_sheet/action_sheet"
+  },
+  "component": true
+}

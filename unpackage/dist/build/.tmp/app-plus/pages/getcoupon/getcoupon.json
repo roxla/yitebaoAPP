@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "优惠券领取列表",
+  "navigationBarBackgroundColor": "#02C0D0",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control"
+  }
+}

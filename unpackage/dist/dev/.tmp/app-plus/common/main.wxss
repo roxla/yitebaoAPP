@@ -1,0 +1,228 @@
+
+page {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		-webkit-overflow-scrolling: touch;
+}
+
+	/* 引用了自定义titleBar之后需要padding-top */
+.p-top {
+		padding-top: calc(var(--status-bar-height));
+}
+._content {
+		min-height: calc(100vh - 88rpx);
+		background: #f4f4f4;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding: 1px;
+		padding-top: var(--status-bar-height);
+		margin-top: 88rpx;
+}
+.eee {
+		background: #eee;
+}
+.fff {
+		background: #fff;
+}
+
+	/* 使用伪类模仿border  */
+.border-bottom-after::after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 1px;
+		background: #eee;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		-webkit-transform: scaleY(0.5);
+		    -ms-transform: scaleY(0.5);
+		        transform: scaleY(0.5);
+}
+button::after {
+		border: 0;
+}
+image {
+		max-width: 100%;
+}
+
+	/*每个页面公共css */
+.flex-wrap {
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+}
+.flex-nowrap {
+		-webkit-flex-wrap: nowrap;
+		    -ms-flex-wrap: nowrap;
+		        flex-wrap: nowrap;
+}
+.flex-row {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+}
+.flex-col {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+}
+.justify-content-around {
+		-webkit-justify-content: space-around;
+		    -ms-flex-pack: distribute;
+		        justify-content: space-around;
+}
+
+	/* 外边距30 常见根box */
+.m-30 {
+		margin: 30rpx;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+}
+.mbt-20 {
+		margin-top: 20rpx;
+		margin-bottom: 20rpx;
+}
+button.button-hover {
+		opacity: 0.8;
+}
+
+	/* 文本溢出 */
+.hide-text-1 {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;
+		overflow: hidden;
+}
+.hide-text-2 {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+}
+.hide-text-3 {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 3;
+		overflow: hidden;
+}
+
+	/* 隔断 */
+.partation {
+		width: 100%;
+		height: 1rpx;
+		background: #f4f4f4;
+		-webkit-transform: scaleY(0.5);
+		    -ms-transform: scaleY(0.5);
+		        transform: scaleY(0.5);
+}
+.partation-30 {
+		width: 100%;
+		height: 20rpx;
+		background: #f4f4f4;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+}
+.mlr-30 {
+		margin: 0 30rpx;
+		width: calc(100% - 60rpx);
+}
+
+	/* 常用标题 */
+.title_1 {
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		height: 100rpx;
+		padding: 0 30rpx;
+}
+.title_1 .left {
+		font-size: 30rpx;
+		color: #333;
+		/* font-weight: 500; */
+}
+.title_1 .center {
+		font-size: 30rpx;
+		color: #666;
+		margin: 0 auto 0 30rpx;
+}
+.title_1 .center.width-90 {
+		width: 60% !important;
+}
+.title_1 .center.width-70 {
+		width: 70% !important;
+}
+.title_1 .center.width-70- {
+		width: calc(70% - 36rpx) !important;
+}
+.title_1 .right text {
+		font-size: 26rpx;
+		color: #999;
+}
+.title_1 image {
+		width: 36rpx;
+		height: 36rpx;
+		display: block;
+}
+.content {
+		min-height: 100vh;
+		background: #fff;
+}
+
+	/* 遮罩层 */
+.plane {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		-webkit-transition: all .2s;
+		-o-transition: all .2s;
+		transition: all .2s;
+}
+.plane.active {
+		z-index: 999;
+		-webkit-animation-delay: .3s;
+		        animation-delay: .3s;
+}
+.plane-close {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0%;
+		top: 0;
+		background: rgba(0, 0, 0, .6);
+		z-index: 0;
+		-webkit-transition: all .3s;
+		-o-transition: all .3s;
+		transition: all .3s;
+		opacity: 0;
+}
+.plane-close{
+		opacity: 1
+}
+.plane-content {
+		background: #fff;
+		border-radius: 5rpx;
+		position: relative;
+		z-index: 1;
+}
+

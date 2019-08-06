@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"test_box{ height: 14px; width: 90%; border: 1px solid black; border-radius: 2500px; margin: auto; overflow: hidden; }\n.",[1],"test{ background-color: #FFCCCC; height: 100%; }\n",],undefined,{path:"./pages/test/test.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/test/test.wxml') } }));

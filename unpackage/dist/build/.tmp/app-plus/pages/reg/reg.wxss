@@ -1,0 +1,91 @@
+
+#REG{
+	height: 100vh;
+	background-color: #F8F8F8;
+}
+.button_color{
+	height: 36px;
+	line-height: 36px;
+}
+.button_color[disabled]{
+	background-color: rgba(1,170,163,.6);
+}
+.reg_logo{
+	width: 45%;
+	height: 0;
+	padding-bottom: 45%;
+	position: relative;
+	margin: auto;
+}
+.reg_box{
+	padding: 20px 5% 0px;
+}
+.reg_input_box{
+	background-color: white;
+	width: 100%;
+	border: 1px solid #E3E3E3;
+}
+.reg_input{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	padding: 10px 0px;
+	border-bottom: 1px solid #E3E3E3;
+}
+.reg_input:last-of-type{
+	border-bottom: 0px;
+}
+.uni_Icon{
+	width: 30px;
+	line-height: 25px;
+	height: 25px;
+	margin-left: 5px;
+}
+.uni_button{
+	width: 90px;
+	margin-right: 10px;
+}
+.uni_button button{
+	width: 100%;
+	font-size: 12px;
+	padding: 0px;
+	vertical-align: middle;
+}
+.uni_input{
+	line-height: 30px;
+	height: 30px;
+	width: 100%;
+}
+.reg_mail .uni_input{
+	width: calc(100% - 90px);
+}
+.uni_input input{
+	line-height: 30px;
+	height: 30px;
+	font-size: 0.8em;
+}
+.reg_rule,.reg_button,.reg_link{
+	margin-top: 6%;
+}
+.reg_rule{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 0.8em;
+}
+.reg_rule view{
+	line-height: 24px;
+}
+.reg_rule_item{
+	display: inline-block;
+	color: #007AFF;
+}
+.reg_link_item{
+	text-align: center;
+	font-size: 0.8em;
+	color: #007AFF;
+}
+

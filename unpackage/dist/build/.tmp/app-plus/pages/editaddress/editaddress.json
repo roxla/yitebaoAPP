@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "编辑地址",
+  "navigationBarBackgroundColor": "#02C0D0",
+  "navigationBarTextStyle": "white",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "保存",
+        "type": "none",
+        "color": "white",
+        "float": "right",
+        "fontSize": 15
+      }
+    ]
+  },
+  "usingComponents": {
+    "system": "/components/system_/index",
+    "uni-icon": "/node-modules/@dcloudio/uni-ui/lib/uni-icon/uni-icon"
+  }
+}
